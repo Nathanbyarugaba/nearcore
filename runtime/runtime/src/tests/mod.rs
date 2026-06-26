@@ -134,3 +134,4 @@ fn test_vm_types_global_contract_identifier_len() {
         near_primitives::action::GlobalContractIdentifier::AccountId(account_id).len()
     );
 }
+pub mod determinism;
